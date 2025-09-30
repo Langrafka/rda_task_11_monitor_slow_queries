@@ -1,4 +1,6 @@
--- Повільніший рушій: Products1 (InnoDB). Видалено Products1 та її дані після аналізу Slow Query Log.
+-- Slower engine: Products1 (InnoDB). Removed Products1 and its data after Slow Query Log analysis.
+
+DROP DATABASE IF EXISTS ShopDB;
 
 CREATE DATABASE IF NOT EXISTS ShopDB; 
 
